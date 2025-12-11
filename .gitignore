@@ -1,0 +1,49 @@
+# ============================================
+# PROJECT SPECIFIC (MSAD 기반)
+# ============================================
+data/
+shared_results/
+results/
+experiments/
+TSB_*/         # 모든 윈도우 사이즈 폴더
+*.pkl
+*.npz
+*.zip
+*.7z
+
+# Feature csvs
+TSFRESH_*.csv
+*feature.csv
+
+# Detector outputs
+final_detector_results.csv
+final_auc_pr_results.csv
+
+# ============================================
+# PYTHON
+# ============================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# venv
+.env
+.venv
+venv/
+ENV/
+env/
+
+# ============================================
+# VS CODE / OS FILES
+# ============================================
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ============================================
+# JUPYTER
+# ============================================
+.ipynb_checkpoints/
